@@ -3,11 +3,13 @@
 
 {|
 ! CMake Option 
+! 2.8.6
 ! 2.8.5
 ! 2.8.4
 ! 2.8.3
 |-
 | add_custom_command
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: generator expressions</ref>
@@ -16,18 +18,22 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | find_library
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: support for CMAKE_LIBRARY_ARCHITECTURE</ref>
 | style="background:green;" | X
 |-
 | output_required_files
+| style="background:red;" | - 
 | style="background:red;" | - <ref>deprecated</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 |-
 | while
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:red;" | -
 | style="background:red;" | -
