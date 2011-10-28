@@ -442,17 +442,17 @@
 | style="background-color:green;" | X
 |-
 | DEFINITIONS
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X (deprecated: use COMPILE_DEFINITIONS instead)
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | - (deprecated: use COMPILE_DEFINITIONS instead)
 | style="background-color:magenta;" | X (TODO: really added in 2.6.1? missing from doc before 2.6.1, but compatibility feature for 2.4)
 |-
 | EXCLUDE_FROM_ALL
@@ -684,13 +684,13 @@
 ! 2.6-patch 0
 |-
 | &lt;CONFIG&gt;_OUTPUT_NAME
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X (deprecated: use OUTPUT_NAME_&lt;CONFIG&gt;)
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | - (deprecated: use OUTPUT_NAME_&lt;CONFIG&gt;)
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -992,13 +992,13 @@
 | style="background-color:green;" | X
 |-
 | HAS_CXX
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X
-| style="background-color:yellow;" | X 
-| style="background-color:yellow;" | X (deprecated: set LINKER_LANGUAGE instead)
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | - 
+| style="background-color:red;" | - (deprecated: set LINKER_LANGUAGE instead)
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
