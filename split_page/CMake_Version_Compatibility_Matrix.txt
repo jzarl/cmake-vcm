@@ -1,0 +1,36 @@
+= Compatibility across different CMake versions =
+
+Below you can find a list of features and when they were introduced to cmake. The features are grouped by their respective section in the documentation.
+Entries marked in green show available, fully upwards-compatible features. Entries in yellow mark changes in features that are available in higher versions of CMake, but not in this version. Entries in red mark incompatible changes or not available features.
+
+For size-reasons, the matrix has been split into the following subpages:
+
+* [[/Options|CMake Options]]
+* [[/Commands|Commands]]
+* [[/Properties|Properties]]
+** [[/Properties#Properties_of_Global_Scope|Properties of Global Scope]]
+** [[/Properties#Properties_on_Directories|Properties on Directories]]
+** [[/Properties#Properties_on_Targets|Properties on Targets]]
+** [[/Properties#Properties_on_Tests|Properties on Tests]]
+** [[/Properties#Properties_on_Source_Files|Properties on Source Files]]
+** [[/Properties#Properties_on_Cache_Entries|Properties on Cache Entries]]
+* [[/StandardCMakeModules|Standard CMake Modules]]
+* [[/Variables|Variables]]
+** [[/Variables#Variables_That_Change_Behavior|Variables That Change Behavior]]
+** [[/Variables#Variables_That_Describe_the_System|Variables That Describe The System]]
+** [[/Variables#Variables_for_Languages|Variables for Languages]]
+** [[/Variables#Variables_that_Control_the_Build|Variables That Control The Build]]
+** [[/Variables#Variables_that_Provide_Information|Variables That Provide Information]]
+
+
+== Additional Notes ==
+
+When writing CMake code that is to be compatible with previous releases of CMake, not only look out for changes in the API, but also consider changes in behavior between different versions of CMake. When such a change in behavior occurs, it is often documented  in the description of CMake-[http://www.cmake.org/cmake/help/cmake-2-8-docs.html#section_Policies Policies].
+
+= General Information =
+
+The information on this page was compiled from the plain-text documentation of the various CMake releases (<code>cmake --help-full</code>). The complete documentation for all CMake releases can be viewed on the page [[CMake Released Versions]].
+
+Sometimes the documentation text changes between two releases, even though the functionality remains the same. E.g. a later release of CMake may contain clarifications or documentation for previously un(der)documented features. Although care has been taken in trying to correctly identify all changes, and in minimizing false positives, some of the information on this page may still contain errors.
+
+

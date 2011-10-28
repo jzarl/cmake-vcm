@@ -1,0 +1,1060 @@
+== Commands ==
+
+
+{|
+! CMake Option 
+! 2.8.5
+! 2.8.4
+! 2.8.3
+! 2.8.2
+! 2.8.1
+! 2.8.0
+! 2.6-patch 4
+! 2.6-patch 3
+! 2.6-patch 2
+! 2.6-patch 1
+! 2.6-patch 0
+|-
+| add_custom_command
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: generator expressions)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| add_custom_target
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option SOURCES)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| add_definitions
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| add_dependencies
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| add_executable
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| add_library
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: add library type UNKNOWN)
+| style="background:green;" | X
+|-
+| add_subdirectory
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| add_test
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option WORKING_DIRECTORY)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| aux_source_directory
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| break
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| build_command
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: supports options CONFIGURATION, PROJECT_NAME, and TARGET)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| cmake_minimum_required
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: optional .tweak to version)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| cmake_policy
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: support GET)
+| style="background:green;" | X
+|-
+| configure_file
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: DOWNLOAD supports options EXPECTED_MD5 and SHOW_PROGRESS)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| create_test_sourcelist
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| define_property
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| else
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| elseif
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| enable_language
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| enable_testing
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| endforeach
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| endfunction
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| endif
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| endmacro
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| endwhile
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| execute_process
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| export
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: PACKAGE)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| file
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: DOWNLOAD supports INACTIVITY_TIMEOUT; UPLOAD)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: RENAME, COPY, INSTALL)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: GLOB_RECURSE supports FOLLOW_SYMLINKS)
+| style="background:green;" | X
+|-
+| find_file
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option HINTS)
+|-
+| find_library
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: support for CMAKE_LIBRARY_ARCHITECTURE)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option HINTS)
+|-
+| find_package
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option NO_CMAKE_SYSTEM_PACKAGE_REGISTRY; support for CMAKE_LIBRARY_ARCHITECTURE)
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: sets variable &lt;package&gt;_CONSIDERED_CONFIGS)
+| style="background:green;" | X
+| style="background:yellow;" | X (change: doesn't search in &lt;package&gt;_DIR when considering CMAKE_ENVIRONMENT_PATH)
+| style="background:yellow;" | X (missing: option NO_CMAKE_PACKAGE_REGISTRY)
+| style="background:yellow;" | X (missing: option NO_POLICY_SCOPE; change: don't continue, if &lt;package&gt;_DIR is set incorrectly; doesn't check PACKAGE_VERSION_UNSUITABLE; fewer search-paths)
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: sets variable PACKAGE_FIND_VERSION_TWEAK and PACKAGE_FIND_VERSION_COUNT)
+| style="background:yellow;" | X (missing: option HINTS)
+|-
+| find_path
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option HINTS)
+|-
+| find_program
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option HINTS)
+|-
+| fltk_wrap_ui
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| foreach
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: IN LISTS, IN ITEMS)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| function
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| get_cmake_property
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| get_directory_property
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| get_filename_component
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option REALPATH)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| get_property
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: CACHE)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| get_source_file_property
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| get_target_property
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| get_test_property
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| if
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X 
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: IS_SYMLINK)
+| style="background:yellow;" | X (missing: allow constants, parenthesis)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: TARGET, VERSION_LESS, VERSION_EQUAL, VERSION_GREATER)
+| style="background:green;" | X
+|-
+| include
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option NO_POLICY_SCOPE)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| include_directories
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| include_external_msproject
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (change: prefix created target with  "INCLUDE_EXTERNAL_MSPROJECT_")
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| include_regular_expression
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| install
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: DIRECTORY supports OPTIONAL)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| link_directories
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| list
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| load_cache
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| load_command
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| macro
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| mark_as_advanced
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| math
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| message
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: WARNING, AUTHOR_WARNING)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| option
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| output_required_files
+| style="background:red;" | - (deprecated)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| project
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: custom languages supported)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| qt_wrap_cpp
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| qt_wrap_ui
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| remove_definitions
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| return
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: returns from file)
+| style="background:green;" | X
+|-
+| separate_arguments
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: UNIX_COMMAND, WINDOWS_COMMAND)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| set
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| set_directory_properties
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| set_property
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: CACHE)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| set_source_files_properties
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| set_target_properties
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: support VS_SCC_PROJECTNAME, VS_SCC_LOCALPATH, VS_SCC_PROVIDER)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| set_tests_properties
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| site_name
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| source_group
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| string
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: FIND)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: RANDOM supports RANDOM_SEED)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| target_link_libraries
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X (missing: option LINK_INTERFACE_LIBRARIES)
+| style="background:green;" | X
+|-
+| try_compile
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| try_run
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| unset
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+|-
+| variable_watch
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| while
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|}
+
+
+

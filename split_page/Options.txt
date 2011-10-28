@@ -1,0 +1,580 @@
+== Options ==
+
+{|
+! CMake Option 
+! 2.8.5
+! 2.8.4
+! 2.8.3
+! 2.8.2
+! 2.8.1
+! 2.8.0
+! 2.6-patch 4
+! 2.6-patch 3
+! 2.6-patch 2
+! 2.6-patch 1
+! 2.6-patch 0
+|-
+| -C &lt;initial-cache&gt;
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -D &lt;var&gt;:&lt;type&gt;=&lt;value&gt;
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -U &lt;globbing_expr&gt;
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -G &lt;generator-name&gt;
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -Wno-dev
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -Wdev
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -E
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -i
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -L[A][H]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --build &lt;dir&gt;
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+|-
+| -N
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| -P &lt;file&gt;
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --graphviz=[file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --system-information [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --debug-trycompile
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --debug-output
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --trace
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+| style="background:red;" | -
+|-
+| --warn-uninitialized
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+|-
+| --warn-unused-vars
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+|-
+| --no-warn-unused-cli
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+|-
+| --check-system-vars
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+| style="background:red;" | -
+|-
+| --help-command cmd [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-command-list [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-commands [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-compatcommands [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-module module [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-module-list [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-modules [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-custom-modules [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-policy cmp [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+|-
+| --help-policies [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:red;" | -
+|-
+| --help-property prop [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-property-list [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-properties [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-variable var [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-variable-list [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-variables [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --copyright [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-full [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-html [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --help-man [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|-
+| --version [file]
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:green;" | X
+|}
+
+Note: Commands available with the <code>-E</code> option are not tracked by this overview.
+
+
+

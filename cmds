@@ -1,0 +1,30 @@
+Useful sed command line to add the lines for a new version (e.g. 2.8.4):
+========================================================================
+
+Prepare text with HTML escapes
+------------------------------
+
+sed  's/&lt;/</g ; s/&gt;/>/g ; s/&quot;/"/g ; s/&nbsp;/ /g ; s/&amp;/\&/g' 
+
+Add new version
+---------------
+
+sed  '/^!\ CMake\ Option/ {s/$/\n! 2.8.4/} ; /^|-/ { n ; n ; p}'
+
+-> 
+in lines starting with "! CMake Option":
+add a line with the version: "! 2.8.4".
+
+in lines beginning a new table row ("|-"):
+skip the "|-",
+then skip the column with the description,
+then duplicate the line containing the second column.
+
+The same from within vim:
+:1,$!sed '/^\!\ CMake\ Option/ {s/$/\n\! 2.8.5/} ; /^|-/ { n ; n ; p}'
+
+Better version, which doesn't copy comments in the second column:
+:1,$!sed '/^\!\ CMake\ Option/ {s/$/\n\! 2.8.6/} ; /^|-/ { n ; n ; s/^\([^(<]*\)/\1\n\1/}'
+
+-> instead of simply duplicating the line for the second column,
+   we now only duplicate everything up to the first '<' or '(' character
