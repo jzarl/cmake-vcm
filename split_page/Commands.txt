@@ -1025,7 +1025,7 @@
 | set_property
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yelllow;" | X <ref>missing: APPEND_STRING</ref>
+| style="background:yellow;" | X <ref>missing: APPEND_STRING</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
