@@ -3,6 +3,7 @@
 
 {|
 ! CMake Option 
+! 2.8.7
 ! 2.8.6
 ! 2.8.5
 ! 2.8.4
@@ -20,6 +21,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X (missing: generator expressions)
 | style="background:green;" | X
 | style="background:green;" | X
@@ -31,6 +33,7 @@
 | style="background:green;" | X
 |-
 | add_custom_target
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -57,8 +60,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | add_dependencies
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -85,8 +90,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | add_library
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -113,8 +120,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | add_test
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -141,8 +150,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | break
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -163,6 +174,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X (missing: supports options CONFIGURATION, PROJECT_NAME, and TARGET)
 | style="background:green;" | X
 | style="background:green;" | X
@@ -171,6 +183,7 @@
 | style="background:green;" | X
 |-
 | cmake_minimum_required
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -195,11 +208,13 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X (missing: support GET)
 | style="background:green;" | X
 |-
 | configure_file
 | style="background:green;" | X
+| style="background:yellow;" | X (missing: option NEWLINE_STYLE)
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -213,6 +228,7 @@
 | style="background:green;" | X
 |-
 | create_test_sourcelist
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -239,8 +255,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | else
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -267,8 +285,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | enable_language
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -295,8 +315,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | endforeach
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -323,8 +345,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | endif
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -351,8 +375,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | endwhile
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -379,8 +405,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | export
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -396,6 +424,7 @@
 |-
 | file
 | style="background:green;" | X
+| style="background:yellow;" | X (missing: hash functions MD5,SHA1,SHA224,SHA256,SHA384,SHA512)
 | style="background:green;" | X
 | style="background:yellow;" | X (missing: DOWNLOAD supports INACTIVITY_TIMEOUT; UPLOAD)
 | style="background:green;" | X
@@ -420,9 +449,11 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X (missing: option HINTS)
 |-
 | find_library
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X (missing: support for CMAKE_LIBRARY_ARCHITECTURE)
@@ -437,6 +468,7 @@
 | style="background:yellow;" | X (missing: option HINTS)
 |-
 | find_package
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X (missing: support for CMAKE_DISABLE_FIND_PACKAGE_&lt;package&gt;)
 | style="background:yellow;" | X (missing: option NO_CMAKE_SYSTEM_PACKAGE_REGISTRY; support for CMAKE_LIBRARY_ARCHITECTURE)
@@ -462,9 +494,11 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X (missing: option HINTS)
 |-
 | find_program
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -491,8 +525,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | foreach
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -519,8 +555,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | get_cmake_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -547,8 +585,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | get_filename_component
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -563,6 +603,7 @@
 | style="background:green;" | X
 |-
 | get_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -589,8 +630,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | get_target_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -617,8 +660,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | if
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -633,6 +678,7 @@
 | style="background:green;" | X
 |-
 | include
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -659,8 +705,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | include_external_msproject
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -687,8 +735,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | install
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -715,8 +765,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | list
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -743,8 +795,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | load_command
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -771,8 +825,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | mark_as_advanced
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -799,8 +855,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | message
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -827,8 +885,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | output_required_files
+| style="background:red;" | -
 | style="background:red;" | -
 | style="background:red;" | - (deprecated)
 | style="background:green;" | X
@@ -843,6 +903,7 @@
 | style="background:green;" | X
 |-
 | project
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -869,8 +930,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | qt_wrap_ui
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -897,8 +960,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | return
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -913,6 +978,7 @@
 | style="background:green;" | X
 |-
 | separate_arguments
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -939,6 +1005,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | set_directory_properties
 | style="background:green;" | X
@@ -953,8 +1020,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | set_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:yelllow;" | X (missing: APPEND_STRING)
 | style="background:green;" | X
@@ -981,9 +1050,11 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | set_target_properties
 | style="background:green;" | X
+| style="background:yellow;" | X (missing: support for VS_SCC_AUXPATH)
 | style="background:yellow;" | X (missing: support for VS_GLOBAL_&lt;variable&gt;)
 | style="background:green;" | X
 | style="background:green;" | X
@@ -997,6 +1068,7 @@
 | style="background:green;" | X
 |-
 | set_tests_properties
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1023,8 +1095,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | source_group
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1040,6 +1114,7 @@
 |-
 | string
 | style="background:green;" | X
+| style="background:yellow;" | X (missing: hash functions MD5,SHA1,SHA224,SHA256,SHA384,SHA512)
 | style="background:green;" | X
 | style="background:yellow;" | X (missing: FIND)
 | style="background:green;" | X
@@ -1054,6 +1129,7 @@
 |-
 | target_link_libraries
 | style="background:green;" | X
+| style="background:yellow;" | X (missing: modes LINK_PUBLIC and LINK_PRIVATE)
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1067,6 +1143,7 @@
 | style="background:green;" | X
 |-
 | try_compile
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1093,8 +1170,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | unset
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1121,8 +1200,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | while
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
