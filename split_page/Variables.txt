@@ -1145,7 +1145,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
-| style="background-color:yellow;" | X (changed semantics)
+| style="background-color:yellow;" | X <ref>changed semantics</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1853,7 +1853,7 @@
 |-
 | CMAKE_BUILD_TOOL
 | style="background-color:green;" | X 
-| style="background-color:yellow;" | X (missing: CMAKE_BUILD_TOOL)
+| style="background-color:yellow;" | X <ref>missing: CMAKE_BUILD_TOOL</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1934,7 +1934,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
-| style="background-color:red;" | - (deprecated)
+| style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2649,3 +2649,5 @@
 
 
 
+=== Footnotes ===
+<references/>

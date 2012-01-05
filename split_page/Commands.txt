@@ -22,7 +22,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: generator expressions)
+| style="background:yellow;" | X <ref>missing: generator expressions</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -42,7 +42,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option SOURCES)
+| style="background:yellow;" | X <ref>missing: option SOURCES</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -104,7 +104,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: add library type UNKNOWN)
+| style="background:yellow;" | X <ref>missing: add library type UNKNOWN</ref>
 | style="background:green;" | X
 |-
 | add_subdirectory
@@ -127,7 +127,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option WORKING_DIRECTORY)
+| style="background:yellow;" | X <ref>missing: option WORKING_DIRECTORY</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -175,7 +175,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: supports options CONFIGURATION, PROJECT_NAME, and TARGET)
+| style="background:yellow;" | X <ref>missing: supports options CONFIGURATION, PROJECT_NAME, and TARGET</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -189,7 +189,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: optional .tweak to version)
+| style="background:yellow;" | X <ref>missing: optional .tweak to version</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -209,17 +209,17 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: support GET)
+| style="background:yellow;" | X <ref>missing: support GET</ref>
 | style="background:green;" | X
 |-
 | configure_file
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option NEWLINE_STYLE)
+| style="background:yellow;" | X <ref>missing: option NEWLINE_STYLE</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: DOWNLOAD supports options EXPECTED_MD5 and SHOW_PROGRESS)
+| style="background:yellow;" | X <ref>missing: DOWNLOAD supports options EXPECTED_MD5 and SHOW_PROGRESS</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -416,7 +416,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: PACKAGE)
+| style="background:yellow;" | X <ref>missing: PACKAGE</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -424,17 +424,17 @@
 |-
 | file
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: hash functions MD5,SHA1,SHA224,SHA256,SHA384,SHA512)
+| style="background:yellow;" | X <ref>missing: hash functions MD5,SHA1,SHA224,SHA256,SHA384,SHA512</ref>
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: DOWNLOAD supports INACTIVITY_TIMEOUT; UPLOAD)
-| style="background:green;" | X
-| style="background:green;" | X
+| style="background:yellow;" | X <ref>missing: DOWNLOAD supports INACTIVITY_TIMEOUT; UPLOAD</ref>
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: RENAME, COPY, INSTALL)
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: GLOB_RECURSE supports FOLLOW_SYMLINKS)
+| style="background:yellow;" | X <ref>missing: RENAME, COPY, INSTALL</ref>
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X <ref>missing: GLOB_RECURSE supports FOLLOW_SYMLINKS</ref>
 | style="background:green;" | X
 |-
 | find_file
@@ -450,13 +450,13 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option HINTS)
+| style="background:yellow;" | X <ref>missing: option HINTS</ref>
 |-
 | find_library
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: support for CMAKE_LIBRARY_ARCHITECTURE)
+| style="background:yellow;" | X <ref>missing: support for CMAKE_LIBRARY_ARCHITECTURE</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -465,22 +465,22 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option HINTS)
+| style="background:yellow;" | X <ref>missing: option HINTS</ref>
 |-
 | find_package
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: support for CMAKE_DISABLE_FIND_PACKAGE_&lt;package&gt;)
-| style="background:yellow;" | X (missing: option NO_CMAKE_SYSTEM_PACKAGE_REGISTRY; support for CMAKE_LIBRARY_ARCHITECTURE)
+| style="background:yellow;" | X <ref>missing: support for CMAKE_DISABLE_FIND_PACKAGE_&lt;package&gt;</ref>
+| style="background:yellow;" | X <ref>missing: option NO_CMAKE_SYSTEM_PACKAGE_REGISTRY; support for CMAKE_LIBRARY_ARCHITECTURE</ref>
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: sets variable &lt;package&gt;_CONSIDERED_CONFIGS)
+| style="background:yellow;" | X <ref>missing: sets variable &lt;package&gt;_CONSIDERED_CONFIGS</ref>
 | style="background:green;" | X
-| style="background:yellow;" | X (change: doesn't search in &lt;package&gt;_DIR when considering CMAKE_ENVIRONMENT_PATH)
-| style="background:yellow;" | X (missing: option NO_CMAKE_PACKAGE_REGISTRY)
-| style="background:yellow;" | X (missing: option NO_POLICY_SCOPE; change: don't continue, if &lt;package&gt;_DIR is set incorrectly; doesn't check PACKAGE_VERSION_UNSUITABLE; fewer search-paths)
+| style="background:yellow;" | X <ref>change: doesn't search in &lt;package&gt;_DIR when considering CMAKE_ENVIRONMENT_PATH</ref>
+| style="background:yellow;" | X <ref>missing: option NO_CMAKE_PACKAGE_REGISTRY</ref>
+| style="background:yellow;" | X <ref>missing: option NO_POLICY_SCOPE; change: don't continue, if &lt;package&gt;_DIR is set incorrectly; doesn't check PACKAGE_VERSION_UNSUITABLE; fewer search-paths</ref>
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: sets variable PACKAGE_FIND_VERSION_TWEAK and PACKAGE_FIND_VERSION_COUNT)
-| style="background:yellow;" | X (missing: option HINTS)
+| style="background:yellow;" | X <ref>missing: sets variable PACKAGE_FIND_VERSION_TWEAK and PACKAGE_FIND_VERSION_COUNT</ref>
+| style="background:yellow;" | X <ref>missing: option HINTS</ref>
 |-
 | find_path
 | style="background:green;" | X
@@ -495,7 +495,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option HINTS)
+| style="background:yellow;" | X <ref>missing: option HINTS</ref>
 |-
 | find_program
 | style="background:green;" | X
@@ -510,7 +510,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option HINTS)
+| style="background:yellow;" | X <ref>missing: option HINTS</ref>
 |-
 | fltk_wrap_ui
 | style="background:green;" | X
@@ -536,7 +536,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: IN LISTS, IN ITEMS)
+| style="background:yellow;" | X <ref>missing: IN LISTS, IN ITEMS</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -597,7 +597,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option REALPATH)
+| style="background:yellow;" | X <ref>missing: option REALPATH</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -611,7 +611,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: CACHE)
+| style="background:yellow;" | X <ref>missing: CACHE</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -670,11 +670,11 @@
 | style="background:green;" | X 
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: IS_SYMLINK)
-| style="background:yellow;" | X (missing: allow constants, parenthesis)
+| style="background:yellow;" | X <ref>missing: IS_SYMLINK</ref>
+| style="background:yellow;" | X <ref>missing: allow constants, parenthesis</ref>
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: TARGET, VERSION_LESS, VERSION_EQUAL, VERSION_GREATER)
+| style="background:yellow;" | X <ref>missing: TARGET, VERSION_LESS, VERSION_EQUAL, VERSION_GREATER</ref>
 | style="background:green;" | X
 |-
 | include
@@ -687,7 +687,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option NO_POLICY_SCOPE)
+| style="background:yellow;" | X <ref>missing: option NO_POLICY_SCOPE</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -714,7 +714,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (change: prefix created target with  "INCLUDE_EXTERNAL_MSPROJECT_")
+| style="background:yellow;" | X <ref>change: prefix created target with  "INCLUDE_EXTERNAL_MSPROJECT_"</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -746,7 +746,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: DIRECTORY supports OPTIONAL)
+| style="background:yellow;" | X <ref>missing: DIRECTORY supports OPTIONAL</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -866,7 +866,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: WARNING, AUTHOR_WARNING)
+| style="background:yellow;" | X <ref>missing: WARNING, AUTHOR_WARNING</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -890,7 +890,7 @@
 | output_required_files
 | style="background:red;" | -
 | style="background:red;" | -
-| style="background:red;" | - (deprecated)
+| style="background:red;" | - <ref>deprecated</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -912,7 +912,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: custom languages supported)
+| style="background:yellow;" | X <ref>missing: custom languages supported</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -974,7 +974,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: returns from file)
+| style="background:yellow;" | X <ref>missing: returns from file</ref>
 | style="background:green;" | X
 |-
 | separate_arguments
@@ -986,7 +986,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: UNIX_COMMAND, WINDOWS_COMMAND)
+| style="background:yellow;" | X <ref>missing: UNIX_COMMAND, WINDOWS_COMMAND</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1025,13 +1025,13 @@
 | set_property
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yelllow;" | X (missing: APPEND_STRING)
+| style="background:yelllow;" | X <ref>missing: APPEND_STRING</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: CACHE)
+| style="background:yellow;" | X <ref>missing: CACHE</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1054,15 +1054,15 @@
 |-
 | set_target_properties
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: support for VS_SCC_AUXPATH)
-| style="background:yellow;" | X (missing: support for VS_GLOBAL_&lt;variable&gt;)
+| style="background:yellow;" | X <ref>missing: support for VS_SCC_AUXPATH</ref>
+| style="background:yellow;" | X <ref>missing: support for VS_GLOBAL_&lt;variable&gt;</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: support VS_SCC_PROJECTNAME, VS_SCC_LOCALPATH, VS_SCC_PROVIDER)
+| style="background:yellow;" | X <ref>missing: support VS_SCC_PROJECTNAME, VS_SCC_LOCALPATH, VS_SCC_PROVIDER</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1114,14 +1114,14 @@
 |-
 | string
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: hash functions MD5,SHA1,SHA224,SHA256,SHA384,SHA512)
+| style="background:yellow;" | X <ref>missing: hash functions MD5,SHA1,SHA224,SHA256,SHA384,SHA512</ref>
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: FIND)
-| style="background:green;" | X
-| style="background:green;" | X
+| style="background:yellow;" | X <ref>missing: FIND</ref>
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: RANDOM supports RANDOM_SEED)
+| style="background:green;" | X
+| style="background:green;" | X
+| style="background:yellow;" | X <ref>missing: RANDOM supports RANDOM_SEED</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1129,7 +1129,7 @@
 |-
 | target_link_libraries
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: modes LINK_PUBLIC and LINK_PRIVATE)
+| style="background:yellow;" | X <ref>missing: modes LINK_PUBLIC and LINK_PRIVATE</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1139,7 +1139,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
-| style="background:yellow;" | X (missing: option LINK_INTERFACE_LIBRARIES)
+| style="background:yellow;" | X <ref>missing: option LINK_INTERFACE_LIBRARIES</ref>
 | style="background:green;" | X
 |-
 | try_compile
@@ -1220,3 +1220,5 @@
 
 
 
+=== Footnotes ===
+<references/>

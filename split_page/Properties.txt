@@ -484,8 +484,8 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
-| style="background-color:red;" | - (deprecated: use COMPILE_DEFINITIONS instead)
-| style="background-color:magenta;" | X (TODO: really added in 2.6.1? missing from doc before 2.6.1, but compatibility feature for 2.4)
+| style="background-color:red;" | - <ref>deprecated: use COMPILE_DEFINITIONS instead</ref>
+| style="background-color:magenta;" | X <ref>TODO: really added in 2.6.1? missing from doc before 2.6.1, but compatibility feature for 2.4</ref>
 |-
 | EXCLUDE_FROM_ALL
 | style="background-color:green;" | X
@@ -739,7 +739,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
-| style="background-color:red;" | - (deprecated: use OUTPUT_NAME_&lt;CONFIG&gt;)
+| style="background-color:red;" | - <ref>deprecated: use OUTPUT_NAME_&lt;CONFIG&gt;</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -874,7 +874,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
-| style="background-color:red;" | - (removed?)
+| style="background-color:red;" | - <ref>removed?</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1099,7 +1099,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | - 
-| style="background-color:red;" | - (deprecated: set LINKER_LANGUAGE instead)
+| style="background-color:red;" | - <ref>deprecated: set LINKER_LANGUAGE instead</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1580,7 +1580,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
-| style="background-color:yellow;" | X (default value changed)
+| style="background-color:yellow;" | X <ref>default value changed</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1732,7 +1732,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
-| style="background-color:yellow;" | X (missing: semantic for imported targets)
+| style="background-color:yellow;" | X <ref>missing: semantic for imported targets</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 |-
@@ -3009,3 +3009,5 @@
 | style="background-color:red;" | -
 |}
 
+=== Footnotes ===
+<references/>
