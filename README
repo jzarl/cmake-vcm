@@ -1,0 +1,7 @@
+CMake Version compatibility matrix
+==================================
+
+For details on the version compatibility matrix, look here:
+ -> http://www.cmake.org/Wiki/CMake_Version_Compatibility_Matrix
+
+The wiki page is created from this repository, because it's easier to maintain that way...
