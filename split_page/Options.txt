@@ -2,6 +2,7 @@
 
 {|
 ! CMake Option 
+! 2.8.8
 ! 2.8.7
 ! 2.8.6
 ! 2.8.5
@@ -30,8 +31,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | -D &lt;var&gt;:&lt;type&gt;=&lt;value&gt;
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -60,8 +63,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | -G &lt;generator-name&gt;
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -90,8 +95,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | -Wdev
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -120,8 +127,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | -i
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -150,8 +159,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --build &lt;dir&gt;
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -167,6 +178,7 @@
 | style="background:red;" | -
 |-
 | --use-stderr
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:red;" | -
@@ -195,6 +207,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | -P &lt;file&gt;
 | style="background:green;" | X
@@ -210,8 +223,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --find-package
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:red;" | -
@@ -240,8 +255,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --system-information [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -270,8 +287,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --debug-output
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -298,10 +317,12 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:red;" | -
 | style="background:red;" | -
 |-
 | --warn-uninitialized
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -321,6 +342,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:red;" | -
 | style="background:red;" | -
 | style="background:red;" | -
@@ -336,6 +358,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:red;" | -
 | style="background:red;" | -
 | style="background:red;" | -
@@ -347,6 +370,7 @@
 | style="background:red;" | -
 |-
 | --check-system-vars
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -375,8 +399,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help-command-list [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -405,8 +431,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help-compatcommands [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -435,8 +463,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help-module-list [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -465,8 +495,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help-custom-modules [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -494,9 +526,11 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:red;" | -
 |-
 | --help-policies [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -525,8 +559,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help-property-list [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -555,8 +591,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help-variable var [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -585,8 +623,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help-variables [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -615,8 +655,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -645,8 +687,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --help-html [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -675,8 +719,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | --version [file]
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
