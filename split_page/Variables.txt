@@ -4,6 +4,7 @@
 
 {|
 ! CMake Option 
+! 2.8.8
 ! 2.8.7
 ! 2.8.6
 ! 2.8.5
@@ -21,6 +22,7 @@
 | BUILD_SHARED_LIBS
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
+| style="background-color:green;" | X 
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -34,6 +36,7 @@
 | style="background-color:green;" | X
 |-
 | CMAKE_AUTOMOC_RELAXED_MODE
+| style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -62,6 +65,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_BUILD_TYPE
 | style="background-color:green;" | X
@@ -77,8 +81,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_COLOR_MAKEFILE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -107,8 +113,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_DISABLE_FIND_PACKAGE_&lt;PackageName&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -137,6 +145,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_FIND_LIBRARY_SUFFIXES
 | style="background-color:green;" | X
@@ -152,8 +161,26 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_FIND_PACKAGE_WARN_NO_MODULE
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 |-
 | CMAKE_IGNORE_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -169,6 +196,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_INCLUDE_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -197,8 +225,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_LIBRARY_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -227,8 +257,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_MODULE_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -257,8 +289,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_POLICY_DEFAULT_CMP&lt;NNNN&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -286,9 +320,11 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 |-
 | CMAKE_PROGRAM_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -312,6 +348,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -319,6 +356,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_SYSTEM_IGNORE_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -346,9 +384,11 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 |-
 | CMAKE_SYSTEM_LIBRARY_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -376,9 +416,11 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 |-
 | CMAKE_SYSTEM_PROGRAM_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -407,12 +449,14 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |}
 
 
 === Variables That Describe the System ===
 {|
 ! CMake Option 
+! 2.8.8
 ! 2.8.7
 ! 2.8.6
 ! 2.8.5
@@ -441,8 +485,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | BORLAND
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -471,8 +517,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_COMPILER_2005
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -501,8 +549,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_HOST_SYSTEM
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -531,8 +581,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_HOST_SYSTEM_PROCESSOR
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -561,8 +613,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_HOST_UNIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -591,8 +645,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_LIBRARY_ARCHITECTURE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -611,6 +667,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -623,6 +680,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_OBJECT_PATH_MAX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -651,8 +709,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_SYSTEM_NAME
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -681,8 +741,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_SYSTEM_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -711,8 +773,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | MSVC
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -741,8 +805,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | MSVC_IDE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -771,8 +837,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | UNIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -801,8 +869,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | XCODE_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -822,6 +892,7 @@
 
 {|
 ! CMake Option 
+! 2.8.8
 ! 2.8.7
 ! 2.8.6
 ! 2.8.5
@@ -850,8 +921,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_ARCHIVE_CREATE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -880,8 +953,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_COMPILER
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -910,8 +985,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_COMPILER_ID
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -935,6 +1012,23 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_&lt;LANG&gt;_COMPILER_VERSION
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -942,6 +1036,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_&lt;LANG&gt;_COMPILE_OBJECT
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -970,8 +1065,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_CREATE_SHARED_MODULE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1000,8 +1097,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_FLAGS_DEBUG
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1030,8 +1129,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_FLAGS_RELEASE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1060,8 +1161,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_IGNORE_EXTENSIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1086,12 +1189,14 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | CMAKE_&lt;LANG&gt;_IMPLICIT_LINK_DIRECTORIES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1115,6 +1220,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1122,6 +1228,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_&lt;LANG&gt;_LIBRARY_ARCHITECTURE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1145,6 +1252,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>changed semantics</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1152,6 +1260,7 @@
 | style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_LINKER_PREFERENCE_PROPAGATES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1180,8 +1289,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_OUTPUT_EXTENSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1210,8 +1321,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_&lt;LANG&gt;_SIZEOF_DATA_PTR
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1240,8 +1353,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_COMPILER_IS_GNU&lt;LANG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1261,6 +1376,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1276,6 +1392,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1287,6 +1404,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_Fortran_MODOUT_FLAG
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1315,8 +1433,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_USER_MAKE_RULES_OVERRIDE_&lt;LANG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1337,6 +1457,7 @@
 
 {|
 ! CMake Option 
+! 2.8.8
 ! 2.8.7
 ! 2.8.6
 ! 2.8.5
@@ -1352,6 +1473,7 @@
 ! 2.6-patch 0
 |-
 | CMAKE_&lt;CONFIG&gt;_POSTFIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1380,8 +1502,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_AUTOMOC
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -1397,6 +1521,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_AUTOMOC_MOC_OPTIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1425,8 +1550,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_DEBUG_POSTFIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1455,6 +1582,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_EXE_LINKER_FLAGS_[CMAKE_BUILD_TYPE]
 | style="background-color:green;" | X
@@ -1470,8 +1598,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_Fortran_FORMAT
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -1500,8 +1630,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_GNUtoMS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1517,6 +1649,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_INCLUDE_CURRENT_DIR
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1545,8 +1678,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_INSTALL_RPATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1575,8 +1710,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_LIBRARY_OUTPUT_DIRECTORY
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1605,6 +1742,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_LINK_DEF_FILE_FLAG  
 | style="background-color:green;" | X
@@ -1620,8 +1758,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_LINK_INTERFACE_LIBRARIES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1650,6 +1790,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_LINK_LIBRARY_FLAG
 | style="background-color:green;" | X
@@ -1665,8 +1806,26 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_MACOSX_BUNDLE
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 |-
 | CMAKE_NO_BUILTIN_CHRPATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1695,6 +1854,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_SKIP_BUILD_RPATH
 | style="background-color:green;" | X
@@ -1710,8 +1870,26 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_SKIP_INSTALL_RPATH
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 |-
 | CMAKE_TRY_COMPILE_CONFIGURATION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1740,8 +1918,26 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_WIN32_EXECUTABLE
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 |-
 | EXECUTABLE_OUTPUT_PATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1770,6 +1966,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |}
 
 
@@ -1777,6 +1974,7 @@
 
 {|
 ! CMake Option 
+! 2.8.8
 ! 2.8.7
 ! 2.8.6
 ! 2.8.5
@@ -1805,8 +2003,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_ARGC
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1822,6 +2022,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_ARGV0
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1850,8 +2051,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_BUILD_TOOL
+| style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:yellow;" | X <ref>missing: CMAKE_BUILD_TOOL</ref>
 | style="background-color:green;" | X
@@ -1880,8 +2083,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_CACHE_MAJOR_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1910,8 +2115,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_CACHE_PATCH_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1927,6 +2134,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_CACHE_RELEASE_VERSION
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1955,8 +2163,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_COMMAND
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1985,8 +2195,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_CTEST_COMMAND
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2015,8 +2227,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_CURRENT_LIST_DIR
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2045,8 +2259,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_CURRENT_LIST_LINE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2075,8 +2291,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_DL_LIBS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2105,8 +2323,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_EXECUTABLE_SUFFIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2129,6 +2349,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2137,6 +2358,7 @@
 | style="background-color:red;" | -
 |-
 | CMAKE_EXTRA_SHARED_LIBRARY_SUFFIXES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2165,8 +2387,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_HOME_DIRECTORY
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2195,8 +2419,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_IMPORT_LIBRARY_SUFFIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2225,8 +2451,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_MAJOR_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2255,8 +2483,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_MINOR_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2285,8 +2515,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_PATCH_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2315,8 +2547,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_RANLIB
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2345,8 +2579,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_SCRIPT_MODE_FILE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2375,8 +2611,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_SHARED_LIBRARY_SUFFIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2405,8 +2643,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_SHARED_MODULE_SUFFIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2435,8 +2675,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_SKIP_RPATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2465,8 +2707,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_STANDARD_LIBRARIES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2495,6 +2739,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_STATIC_LIBRARY_SUFFIX
 | style="background-color:green;" | X
@@ -2510,8 +2755,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_TWEAK_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2540,6 +2787,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_VERBOSE_MAKEFILE
 | style="background-color:green;" | X
@@ -2555,8 +2803,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMAKE_VERSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2585,8 +2835,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | PROJECT_NAME
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2615,6 +2867,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | [Project name]_BINARY_DIR
 | style="background-color:green;" | X
@@ -2630,8 +2883,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | [Project name]_SOURCE_DIR
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
