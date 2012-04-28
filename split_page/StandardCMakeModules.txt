@@ -1064,7 +1064,7 @@
 | style="background-color:yellow;" | X <ref>missing: Boost_NO_BOOST_CMAKE</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
-| style="background-color:yellow;" | X (missing: Boost_NO_SYSTEM_PATHS, Boost_USE_STATIC_RUNTIME, Boost_USE_DEBUG_PYTHON, Boost_USE_STLPORT, Boost_USE_STLPORT_DEPRECATED_NATIVE_IOSTREAMS, Boost_THREADAPI, Boost_REALPATH
+| style="background-color:yellow;" | X <ref>missing: Boost_NO_SYSTEM_PATHS, Boost_USE_STATIC_RUNTIME, Boost_USE_DEBUG_PYTHON, Boost_USE_STLPORT, Boost_USE_STLPORT_DEPRECATED_NATIVE_IOSTREAMS, Boost_THREADAPI, Boost_REALPATH</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: Boost_DETAILED_FAILURE_MSG</ref>
