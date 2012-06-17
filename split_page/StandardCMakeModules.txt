@@ -1695,7 +1695,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X <ref>deprecated: JAVA_AWT_LIB_PATH, JAVA_JVM_LIB_PATH</ref>
-| style="background-color:yellow;" | X (missing: JNI_INCLUDE_DIRS, JNI_LIBRARIES, JAVA_AWT_LIBRARY, JAVA_JVM_LIBRARY
+| style="background-color:yellow;" | X <ref>missing: JNI_INCLUDE_DIRS, JNI_LIBRARIES, JAVA_AWT_LIBRARY, JAVA_JVM_LIBRARY</ref>
 |-
 | FindKDE3
 | style="background-color:green;" | X
