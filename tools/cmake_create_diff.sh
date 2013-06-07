@@ -45,8 +45,8 @@ then
 	mkdir "$output_dir"
 fi
 
-# XXX: filter through sort?
-ls -1 "$input_dir" >"$version_file"
+#sort by version:
+ls -1 "$input_dir" |sort -V >"$version_file"
 mapfile -t cmake_versions < "$version_file"
 
 let i=1
