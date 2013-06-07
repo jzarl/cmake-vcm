@@ -15,6 +15,13 @@ decode_entities()
 	sed  's/&lt;/</g ; s/&gt;/>/g ; s/&quot;/"/g ; s/&nbsp;/ /g ; s/&amp;/\&/g'
 }
 
+mark_sections()
+{ #add the version to the section headers so they are visible in the diff:
+	sed 's/^\(Options\|Commands\|Standard CMake Modules\)$/\1 '$version'/' |\
+		sed 's/^\(Properties\|Properties of Global Scope\|Properties on Directories\|Properties on Targets\|Properties on Tests\|Properties on Source Files\|Properties on Cache Entries\)$/\1 '$version'/' |\
+		sed 's/^\(Policies\|Variables\|Variables That Change Behavior\|Variables That Describe the System\|Variables for Languages\|Variables that Control the Build\|Variables that Provide Information\)$/\1 '$version'/'
+}
+
 for version
 do
 	if ! echo "$version" |grep -q '^[1-9]\.[0-9]\.[0-9]*$'
@@ -41,6 +48,6 @@ do
 		rm -f "$tmpfile"
 		continue
 	fi
-	cat "$tmpfile" | grep_pre | decode_entities > "$outfile"
+	cat "$tmpfile" | grep_pre | decode_entities | mark_sections > "$outfile"
 	rm "$tmpfile"
 done
