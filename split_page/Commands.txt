@@ -3,6 +3,7 @@
 
 {|
 ! CMake Option 
+! 2.8.10
 ! 2.8.9
 ! 2.8.8
 ! 2.8.7
@@ -21,6 +22,7 @@
 |-
 | add_custom_command
 | style="background:green;" | X
+| style="background:yellow;" | X <ref>missing: generator expressions <code>0</code>, <code>1</code>, <code>AND</code>, <code>OR</code>, <code>NOT</code>, <code>CONFIG</code>, <code>BOOL</code>, <code>STREQUAL</code>, <code>ANGLE-R</code>, <code>COMMA</code>, <code>TARGET_PROPERTY</code></ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -37,6 +39,7 @@
 | style="background:green;" | X
 |-
 | add_custom_target
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -69,8 +72,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | add_dependencies
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -90,6 +95,7 @@
 | add_executable
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: option GLOBAL</ref>
 | style="background:green;" | X
 | style="background:green;" | X
@@ -105,6 +111,7 @@
 | style="background:green;" | X
 |-
 | add_library
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: options GLOBAL, OBJECT</ref>
@@ -137,9 +144,11 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | add_test
 | style="background:green;" | X
+| style="background:yellow;" | X <ref>missing: generator expressions <code>0</code>, <code>1</code>, <code>AND</code>, <code>OR</code>, <code>NOT</code>, <code>CONFIG</code>, <code>BOOL</code>, <code>STREQUAL</code>, <code>ANGLE-R</code>, <code>COMMA</code>, <code>TARGET_PROPERTY</code></ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -156,6 +165,7 @@
 | style="background:green;" | X
 |-
 | aux_source_directory
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -188,8 +198,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | build_command
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -207,6 +219,7 @@
 | style="background:green;" | X
 |-
 | cmake_minimum_required
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -237,10 +250,12 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: support GET</ref>
 | style="background:green;" | X
 |-
 | configure_file
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -273,8 +288,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | define_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -307,8 +324,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | elseif
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -341,8 +360,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | enable_testing
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -375,8 +396,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | endfunction
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -409,8 +432,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | endmacro
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -443,8 +468,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | execute_process
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -472,6 +499,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: PACKAGE</ref>
 | style="background:green;" | X
 | style="background:green;" | X
@@ -480,6 +508,7 @@
 |-
 | file
 | style="background:green;" | X
+| style="background:yellow;" | X <ref>missing: parameters EXPECTED_HASH, TLS_VERIFY, TLS_CAINFO</ref>
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: hash functions MD5,SHA1,SHA224,SHA256,SHA384,SHA512</ref>
@@ -510,9 +539,11 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: option HINTS</ref>
 |-
 | find_library
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -530,6 +561,7 @@
 | style="background:yellow;" | X <ref>missing: option HINTS</ref>
 |-
 | find_package
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: options CONFIG, MODULE, OPTIONAL_COMPONENTS</ref>
@@ -561,9 +593,11 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: option HINTS</ref>
 |-
 | find_program
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -596,8 +630,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | foreach
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -630,8 +666,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | get_cmake_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -664,8 +702,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | get_filename_component
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -683,6 +723,7 @@
 | style="background:green;" | X
 |-
 | get_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -715,8 +756,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | get_target_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -749,8 +792,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | if
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -768,6 +813,7 @@
 | style="background:green;" | X
 |-
 | include
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -800,8 +846,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | include_external_msproject
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: parameters TYPE, GUID and PLATFORM</ref>
 | style="background:green;" | X
@@ -834,8 +882,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | install
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X <ref>change: newer versions add targets to a default component if no component is specified.</ref>
 | style="background:green;" | X
@@ -868,8 +918,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | list
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -902,8 +954,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | load_command
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -936,8 +990,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | mark_as_advanced
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -970,8 +1026,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | message
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1004,8 +1062,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | output_required_files
+| style="background:red;" | -
 | style="background:red;" | -
 | style="background:red;" | -
 | style="background:red;" | -
@@ -1023,6 +1083,7 @@
 | style="background:green;" | X
 |-
 | project
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:yellow;" | X <ref>missing: variable CMAKE_PROJECT_&lt;projectName&gt;_INCLUDE; deprecated: variable CMAKE_PROJECT_&lt;projectName&gt;_INCLUDE_FILE</ref>
 | style="background:yellow;" | X <ref>missing: variable CMAKE_PROJECT_&lt;projectName&gt;_INCLUDE_FILE</ref>
@@ -1055,8 +1116,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | qt_wrap_ui
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1089,8 +1152,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | return
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1108,6 +1173,7 @@
 | style="background:green;" | X
 |-
 | separate_arguments
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1140,6 +1206,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | set_directory_properties
 | style="background:green;" | X
@@ -1157,8 +1224,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | set_property
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1191,8 +1260,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | set_target_properties
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1225,8 +1296,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | site_name
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1259,8 +1332,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | string
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1278,6 +1353,7 @@
 | style="background:green;" | X
 |-
 | target_link_libraries
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1310,6 +1386,7 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | try_run
 | style="background:green;" | X
@@ -1327,8 +1404,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | unset
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
@@ -1361,8 +1440,10 @@
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
+| style="background:green;" | X
 |-
 | while
+| style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X
 | style="background:green;" | X

@@ -3,6 +3,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 
 {|
 ! CMake Option 
+! 2.8.10
 ! 2.8.9
 ! 2.8.8
 ! 2.8.7
@@ -20,6 +21,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 ! 2.6-patch 0
 |-
 | AddFileDependencies
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -50,10 +52,12 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | CMakeAddFortranSubdirectory
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -80,6 +84,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -88,6 +93,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CMakeASM_MASMInformation
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -120,8 +126,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMakeDependentOption
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -148,6 +156,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -165,6 +174,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -173,6 +183,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 |-
 | CMakeDetermineASM_MSASMCompiler
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -200,6 +211,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -207,6 +219,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CMakeExpandImportedTargets
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -224,6 +237,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CMakeExportBuildSettings
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -256,8 +270,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMakeFindPackageMode
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -284,6 +300,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CMAKE_FORCE_Fortran_COMPILER</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -292,6 +309,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 |-
 | CMakePackageConfigHelpers
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -309,6 +327,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CMakeParseArguments
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -335,6 +354,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -343,6 +363,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 |-
 | CMakeJavaInformation
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -375,8 +396,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMakePushCheckState
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -404,6 +427,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -411,6 +435,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CPack
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CPACK_PACKAGE_DIRECTORY</ref>
 | style="background-color:yellow;" | X <ref>missing: CPACK_PACKAGE_ICON, CPACK_OUTPUT_CONFIG_FILE, CPACK_PACKAGE_INSTALL_REGISTRY_KEY, CPACK_CREATE_DESKTOP_LINKS</ref>
@@ -428,6 +453,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 |-
 | CPackBundle
+| style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X <ref>deprecated: CPACK_BUNDLE_STARTUP_SCRIPT</ref>
 | style="background-color:yellow;" | X <ref>missing: CPACK_BUNDLE_STARTUP_COMMAND</ref>
@@ -447,6 +473,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | CPackComponent
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CPACK_COMPONENTS_ALL, CPACK_&lt;GENNAME&gt;_COMPONENT_INSTALL, CPACK_COMPONENTS_GROUPING, CPACK_COMPONENT_&lt;compName&gt;_DISPLAY_NAME, CPACK_COMPONENT_&lt;compName&gt;_DESCRIPTION, CPACK_COMPONENT_&lt;compName&gt;_GROUP, CPACK_COMPONENT_&lt;compName&gt;_DEPENDS, CPACK_COMPONENT_&lt;compName&gt;_REQUIRED</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -462,6 +489,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CPackCygwin
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -481,6 +509,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | CPackDMG
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -496,6 +525,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CPackDeb
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CPACK_DEBIAN_PACKAGE_RECOMMENDS, CPACK_DEBIAN_PACKAGE_SUGGESTS, CPACK_DEBIAN_PACKAGE_CONTROL_EXTRA</ref>
 | style="background-color:green;" | X
@@ -513,6 +543,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CPackNSIS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CPACK_NSIS_EXTRA_PREINSTALL_COMMANDS, CPACK_NSIS_ENABLE_UNINSTALL_BEFORE_INSTALL</ref>
 | style="background-color:yellow;" | X <ref>missing: CPACK_NSIS_INSTALLER_MUI_ICON_CODE, CPACK_NSIS_MENU_LINKS</ref>
@@ -532,6 +563,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | CPackPackageMaker
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -547,6 +579,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | CPackRPM
+| style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X <ref>deprecated: CPACK_RPM_SPEC_INSTALL_POST</ref>
@@ -579,6 +612,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CTestScriptMode
 | style="background-color:green;" | X
@@ -591,6 +625,25 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CTestUseLaunchers
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -613,8 +666,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckCSourceCompiles
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -647,6 +702,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckCXXCompilerFlag
 | style="background-color:green;" | X
@@ -664,8 +720,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckCXXSourceCompiles
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -698,8 +756,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckCXXSymbolExists
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -732,8 +792,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckFunctionExists
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -766,8 +828,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckIncludeFileCXX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -800,8 +864,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckLanguage
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -834,8 +900,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckPrototypeDefinition
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -868,6 +936,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckSymbolExists
 | style="background-color:green;" | X
@@ -885,8 +954,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckTypeSize
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -919,6 +990,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | Dart
 | style="background-color:green;" | X
@@ -936,8 +1008,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | DeployQt4
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -970,9 +1044,11 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | ExternalProject
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>missing: DOWNLOAD_NAME, HG_REPOSITORY, HG_TAG, URL_HASH, TLS_VERIFY, TLS_CAINFO</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -992,6 +1068,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
+| style="background-color:green;" | X 
 | style="background-color:green;" | X <ref>deprecated: set_package_info</ref>
 | style="background-color:yellow;" | X <ref>missing: set_package_properties, INCLUDE_QUIET_PACKAGES, FATAL_ON_MISSING_REQUIRED_PACKAGES, OPTIONAL_PACKAGES_FOUND, OPTIONAL_PACKAGES_NOT_FOUND, RECOMMENDED_PACKAGES_FOUND, RECOMMENDED_PACKAGES_NOT_FOUND, REQUIRED_PACKAGES_FOUND, REQUIRED_PACKAGES_NOT_FOUND, RUNTIME_PACKAGES_FOUND, RUNTIME_PACKAGES_NOT_FOUND) (deprecated: set_feature_info, print_enabled_features, print_disabled_features</ref>
 | style="background-color:green;" | X <ref>deprecated: set_feature_info, print_enabled_features, print_disabled_features</ref>
@@ -1006,6 +1083,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 |-
 | FindALSA
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: ALSA_VERSION_STRING</ref>
@@ -1023,6 +1101,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindASPELL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1055,8 +1134,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindArmadillo
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1081,6 +1162,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: find_package version support</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1091,6 +1173,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindBLAS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1108,6 +1191,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:yellow;" | X <ref>missing: BLA_STATIC, BLA_VENDOR, BLA_F95</ref>
 |-
 | FindBZip2
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: BZIP2_VERSION_STRING</ref>
@@ -1129,6 +1213,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: Boost_NO_BOOST_CMAKE</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1142,6 +1227,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:yellow;" | X <ref>missing: BOOSTROOT</ref>
 |-
 | FindBullet
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1174,9 +1260,11 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindCUDA
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>missing: variable CUDA_HOST_COMPILER</ref>
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CUDA_curand_LIBRARY, CUDA_cusparse_LIBRARY, CUDA_npp_LIBRARY, CUDA_nvcuvenc_LIBRARY, CUDA_nvcuvid_LIBRARY</ref>
 | style="background-color:green;" | X
@@ -1193,6 +1281,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindCURL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CURL_VERSION_STRING</ref>
@@ -1225,8 +1314,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindCoin3D
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1244,6 +1335,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindCups
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CUPS_VERSION_STRING</ref>
@@ -1276,8 +1368,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindCxxTest
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1310,8 +1404,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindDCMTK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1344,8 +1440,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindDevIL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1363,6 +1461,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindDoxygen
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: DOXYGEN_VERSION</ref>
@@ -1395,8 +1494,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindFLEX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1414,6 +1515,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindFLTK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1446,8 +1548,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindFreetype
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: FREETYPE_VERSION_STRING</ref>
@@ -1480,8 +1584,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindGDAL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1503,6 +1609,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: GIF_VERSION (i.e. version support in find_package)</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1515,7 +1622,26 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 |-
+| FindGLEW
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
 | FindGLUT
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1548,8 +1674,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindGTK2
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1577,6 +1705,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1584,6 +1713,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindGettext
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: GETTEXT_VERSION_STRING:</ref>
@@ -1601,6 +1731,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 |-
 | FindGit
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: GIT_VERSION_STRING</ref>
@@ -1628,6 +1759,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1635,6 +1767,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindGnuplot
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: GNUPLOT_VERSION_STRING</ref>
@@ -1656,6 +1789,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: HDF5_Fortran_HL_LIBRARIES; support for component &quot;Fortran_HL&quot;</ref>
 | style="background-color:yellow;" | X <ref>missing: HDF5_Fortran_LIBRARIES, HDF5_HL_LIBRARIES, HDF5_Fortran_COMPILER_EXECUTABLE</ref>
 | style="background-color:green;" | X
@@ -1669,6 +1803,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:red;" | -
 |-
 | FindHSPELL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1701,8 +1836,28 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| FindHg
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 |-
 | FindITK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1722,6 +1877,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | FindImageMagick
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: ImageMagick_VERSION_STRING</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1737,6 +1893,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:yellow;" | X <ref>missing: find_package components support</ref>
 |-
 | FindJNI
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1769,8 +1926,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindJasper
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: JASPER_VERSION_STRING</ref>
@@ -1788,6 +1947,7 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 |-
 | FindJava
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1820,8 +1980,10 @@ Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL*
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindKDE4
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
