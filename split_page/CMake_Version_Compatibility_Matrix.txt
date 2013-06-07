@@ -14,7 +14,9 @@ For size-reasons, the matrix has been split into the following subpages:
 ** [[/Properties#Properties_on_Tests|Properties on Tests]]
 ** [[/Properties#Properties_on_Source_Files|Properties on Source Files]]
 ** [[/Properties#Properties_on_Cache_Entries|Properties on Cache Entries]]
-* [[/StandardCMakeModules|Standard CMake Modules]]
+* Standard CMake Modules
+** [[/StandardCMakeModulesA|A - FindK*]]
+** [[/StandardCMakeModulesFindL|FindL* - Z]]
 * [[/Variables|Variables]]
 ** [[/Variables#Variables_That_Change_Behavior|Variables That Change Behavior]]
 ** [[/Variables#Variables_That_Describe_the_System|Variables That Describe The System]]
