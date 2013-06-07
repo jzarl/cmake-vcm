@@ -1,5 +1,5 @@
 == Standard CMake Modules ==
-Previous part: [[/StandardCMakeModulesA|A - FindK*]]
+Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - FindK*]]
 
 {|
 ! CMake Option 
@@ -1890,7 +1890,7 @@ Previous part: [[/StandardCMakeModulesA|A - FindK*]]
 | style="background-color:red;" | -
 |}
 
-Previous part: [[/StandardCMakeModulesA|A - FindK*]]
+Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - FindK*]]
 
 === Footnotes ===
 <references/>

@@ -1,5 +1,5 @@
 == Standard CMake Modules ==
-Next part: [[/StandardCMakeModulesFindL|FindL* - Z]]
+Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL* - Z]]
 
 {|
 ! CMake Option 
@@ -1839,7 +1839,7 @@ Next part: [[/StandardCMakeModulesFindL|FindL* - Z]]
 | style="background-color:green;" | X
 |}
 
-Next part: [[/StandardCMakeModulesFindL|FindL* - Z]]
+Next part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesFindL|FindL* - Z]]
 
 === Footnotes ===
 <references/>
