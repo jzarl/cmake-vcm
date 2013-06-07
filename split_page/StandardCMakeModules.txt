@@ -2,6 +2,7 @@
 
 {|
 ! CMake Option 
+! 2.8.9
 ! 2.8.8
 ! 2.8.7
 ! 2.8.6
@@ -18,6 +19,7 @@
 ! 2.6-patch 0
 |-
 | AddFileDependencies
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -46,10 +48,12 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | CMakeAddFortranSubdirectory
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -74,6 +78,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -82,6 +87,7 @@
 | style="background-color:red;" | -
 |-
 | CMakeASM_MASMInformation
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -112,8 +118,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMakeDependentOption
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -138,6 +146,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -154,6 +163,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -162,6 +172,7 @@
 | style="background-color:green;" | X
 |-
 | CMakeDetermineASM_MSASMCompiler
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -187,6 +198,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -194,6 +206,7 @@
 | style="background-color:red;" | -
 |-
 | CMakeExpandImportedTargets
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -210,6 +223,7 @@
 | style="background-color:red;" | -
 |-
 | CMakeExportBuildSettings
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -240,8 +254,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMakeFindPackageMode
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -266,6 +282,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CMAKE_FORCE_Fortran_COMPILER</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -274,6 +291,7 @@
 | style="background-color:green;" | X
 |-
 | CMakePackageConfigHelpers
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -290,6 +308,7 @@
 | style="background-color:red;" | -
 |-
 | CMakeParseArguments
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -314,6 +333,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -322,6 +342,7 @@
 | style="background-color:green;" | X
 |-
 | CMakeJavaInformation
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -352,8 +373,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CMakePushCheckState
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -379,6 +402,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -387,6 +411,7 @@
 |-
 | CPack
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>missing: CPACK_PACKAGE_DIRECTORY</ref>
 | style="background-color:yellow;" | X <ref>missing: CPACK_PACKAGE_ICON, CPACK_OUTPUT_CONFIG_FILE, CPACK_PACKAGE_INSTALL_REGISTRY_KEY, CPACK_CREATE_DESKTOP_LINKS</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -402,6 +427,7 @@
 | style="background-color:green;" | X
 |-
 | CPackBundle
+| style="background-color:green;" | X 
 | style="background-color:green;" | X <ref>deprecated: CPACK_BUNDLE_STARTUP_SCRIPT</ref>
 | style="background-color:yellow;" | X <ref>missing: CPACK_BUNDLE_STARTUP_COMMAND</ref>
 | style="background-color:green;" | X
@@ -419,6 +445,7 @@
 |-
 | CPackComponent
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CPACK_COMPONENTS_ALL, CPACK_&lt;GENNAME&gt;_COMPONENT_INSTALL, CPACK_COMPONENTS_GROUPING, CPACK_COMPONENT_&lt;compName&gt;_DISPLAY_NAME, CPACK_COMPONENT_&lt;compName&gt;_DESCRIPTION, CPACK_COMPONENT_&lt;compName&gt;_GROUP, CPACK_COMPONENT_&lt;compName&gt;_DEPENDS, CPACK_COMPONENT_&lt;compName&gt;_REQUIRED</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -434,6 +461,7 @@
 | style="background-color:red;" | -
 |-
 | CPackCygwin
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -451,6 +479,7 @@
 |-
 | CPackDMG
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -467,6 +496,7 @@
 |-
 | CPackDeb
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>missing: CPACK_DEBIAN_PACKAGE_RECOMMENDS, CPACK_DEBIAN_PACKAGE_SUGGESTS, CPACK_DEBIAN_PACKAGE_CONTROL_EXTRA</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -483,6 +513,7 @@
 |-
 | CPackNSIS
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>missing: CPACK_NSIS_EXTRA_PREINSTALL_COMMANDS, CPACK_NSIS_ENABLE_UNINSTALL_BEFORE_INSTALL</ref>
 | style="background-color:yellow;" | X <ref>missing: CPACK_NSIS_INSTALLER_MUI_ICON_CODE, CPACK_NSIS_MENU_LINKS</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -499,6 +530,7 @@
 |-
 | CPackPackageMaker
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -514,6 +546,7 @@
 | style="background-color:red;" | -
 |-
 | CPackRPM
+| style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X <ref>deprecated: CPACK_RPM_SPEC_INSTALL_POST</ref>
 | style="background-color:yellow;" | X <ref>missing: CPACK_RPM_USER_FILELIST, CPACK_RPM_&lt;COMPONENT&gt;_USER_FILELIST</ref>
@@ -544,8 +577,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CTestScriptMode
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -576,8 +611,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckCSourceCompiles
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -608,6 +645,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckCXXCompilerFlag
 | style="background-color:green;" | X
@@ -624,8 +662,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckCXXSourceCompiles
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -656,8 +696,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckCXXSymbolExists
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -688,8 +730,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckFunctionExists
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -720,8 +764,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckIncludeFileCXX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -752,8 +798,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckLanguage
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -784,8 +832,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckPrototypeDefinition
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -816,6 +866,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckSymbolExists
 | style="background-color:green;" | X
@@ -832,8 +883,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CheckTypeSize
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -864,6 +917,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | Dart
 | style="background-color:green;" | X
@@ -880,8 +934,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | DeployQt4
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -912,8 +968,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | ExternalProject
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -932,6 +990,7 @@
 | FeatureSummary
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
+| style="background-color:green;" | X 
 | style="background-color:green;" | X <ref>deprecated: set_package_info</ref>
 | style="background-color:yellow;" | X <ref>missing: set_package_properties, INCLUDE_QUIET_PACKAGES, FATAL_ON_MISSING_REQUIRED_PACKAGES, OPTIONAL_PACKAGES_FOUND, OPTIONAL_PACKAGES_NOT_FOUND, RECOMMENDED_PACKAGES_FOUND, RECOMMENDED_PACKAGES_NOT_FOUND, REQUIRED_PACKAGES_FOUND, REQUIRED_PACKAGES_NOT_FOUND, RUNTIME_PACKAGES_FOUND, RUNTIME_PACKAGES_NOT_FOUND) (deprecated: set_feature_info, print_enabled_features, print_disabled_features</ref>
 | style="background-color:green;" | X <ref>deprecated: set_feature_info, print_enabled_features, print_disabled_features</ref>
@@ -946,6 +1005,7 @@
 | style="background-color:green;" | X
 |-
 | FindALSA
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: ALSA_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -962,6 +1022,7 @@
 | style="background-color:red;" | -
 |-
 | FindASPELL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -992,8 +1053,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindArmadillo
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1016,6 +1079,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: find_package version support</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1026,6 +1090,7 @@
 | style="background-color:red;" | -
 |-
 | FindBLAS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1042,6 +1107,7 @@
 | style="background-color:yellow;" | X <ref>missing: BLA_STATIC, BLA_VENDOR, BLA_F95</ref>
 |-
 | FindBZip2
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: BZIP2_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1061,6 +1127,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: Boost_NO_BOOST_CMAKE</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1074,6 +1141,7 @@
 | style="background-color:yellow;" | X <ref>missing: BOOSTROOT</ref>
 |-
 | FindBullet
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1104,8 +1172,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindCUDA
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CUDA_curand_LIBRARY, CUDA_cusparse_LIBRARY, CUDA_npp_LIBRARY, CUDA_nvcuvenc_LIBRARY, CUDA_nvcuvid_LIBRARY</ref>
 | style="background-color:green;" | X
@@ -1122,6 +1192,7 @@
 | style="background-color:red;" | -
 |-
 | FindCURL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CURL_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1152,8 +1223,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindCoin3D
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1170,6 +1243,7 @@
 | style="background-color:red;" | -
 |-
 | FindCups
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: CUPS_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1200,8 +1274,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindCxxTest
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1232,8 +1308,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindDCMTK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1264,8 +1342,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindDevIL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1282,6 +1362,7 @@
 | style="background-color:red;" | -
 |-
 | FindDoxygen
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: DOXYGEN_VERSION</ref>
 | style="background-color:green;" | X
@@ -1312,8 +1393,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindFLEX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1330,6 +1413,7 @@
 | style="background-color:red;" | -
 |-
 | FindFLTK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1360,8 +1444,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindFreetype
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: FREETYPE_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1392,6 +1478,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindGDAL
 | style="background-color:green;" | X
@@ -1408,8 +1495,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindGIF
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1440,6 +1529,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindGTK
 | style="background-color:green;" | X
@@ -1456,8 +1546,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindGTK2
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1483,6 +1575,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1490,6 +1583,7 @@
 | style="background-color:red;" | -
 |-
 | FindGettext
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: GETTEXT_VERSION_STRING:</ref>
 | style="background-color:green;" | X
@@ -1506,6 +1600,7 @@
 | style="background-color:green;" | X
 |-
 | FindGit
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: GIT_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1531,6 +1626,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1538,6 +1634,7 @@
 | style="background-color:red;" | -
 |-
 | FindGnuplot
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: GNUPLOT_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1557,6 +1654,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: HDF5_Fortran_HL_LIBRARIES; support for component &quot;Fortran_HL&quot;</ref>
 | style="background-color:yellow;" | X <ref>missing: HDF5_Fortran_LIBRARIES, HDF5_HL_LIBRARIES, HDF5_Fortran_COMPILER_EXECUTABLE</ref>
 | style="background-color:green;" | X
@@ -1570,6 +1668,7 @@
 | style="background-color:red;" | -
 |-
 | FindHSPELL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1600,8 +1699,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindITK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1619,6 +1720,7 @@
 |-
 | FindImageMagick
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: ImageMagick_VERSION_STRING</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1634,6 +1736,7 @@
 | style="background-color:yellow;" | X <ref>missing: find_package components support</ref>
 |-
 | FindJNI
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1664,8 +1767,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindJasper
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: JASPER_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1682,6 +1787,7 @@
 | style="background-color:green;" | X
 |-
 | FindJava
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1712,6 +1818,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindKDE4
 | style="background-color:green;" | X
@@ -1728,8 +1835,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindLAPACK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1760,6 +1869,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindLibArchive
 | style="background-color:green;" | X
@@ -1768,6 +1878,24 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| FindLibLZMA
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1778,6 +1906,7 @@
 | style="background-color:red;" | -
 |-
 | FindLibXml2
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: LIBXML2_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1794,6 +1923,7 @@
 | style="background-color:green;" | X
 |-
 | FindLibXslt
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: LIBXSLT_VERSION_STRING</ref>
 | style="background-color:yellow;" | X <ref>missing: variables LIBXSLT_EXSLT_LIBRARIES, LIBXSLT_XSLTPROC_EXECUTABLE</ref>
@@ -1821,11 +1951,13 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:green;" | X <ref>deprecated: LUA_FOUND</ref>
 | style="background-color:yellow;" | X <ref>missing: LUA50_FOUND</ref>
 | style="background-color:green;" | X
 |-
 | FindLua51
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: LUA_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -1856,8 +1988,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindMPEG
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1888,8 +2022,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindMPI
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1920,8 +2056,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindMotif
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1952,8 +2090,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindOpenGL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1981,11 +2121,13 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | FindOpenSSL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: $path component in OPENSSL_VERSION</ref>
 | style="background-color:green;" | X
@@ -2002,6 +2144,7 @@
 | style="background-color:green;" | X
 |-
 | FindOpenSceneGraph
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2032,8 +2175,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindPHP4
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2051,6 +2196,7 @@
 |-
 | FindPNG
 | style="background-color:green;" | X 
+| style="background-color:green;" | X 
 | style="background-color:yellow;" | X <ref>deprecated: variable PNG_INCLUDE_DIR</ref> <ref>missing: PNG_VERSION_STRING</ref>
 | style="background-color:yellow;" | X <ref>missing: variable PNG_INCLUDE_DIRS</ref>
 | style="background-color:green;" | X
@@ -2066,6 +2212,7 @@
 | style="background-color:green;" | X
 |-
 | FindPackageHandleStandardArgs
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: option HANDLE_COMPONENTS</ref>
 | style="background-color:green;" | X
@@ -2096,8 +2243,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindPerl
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: PERL_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -2114,6 +2263,7 @@
 | style="background-color:green;" | X
 |-
 | FindPerlLibs
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2144,8 +2294,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindPike
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2163,6 +2315,7 @@
 |-
 | FindPkgConfig
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: PKG_CONFIG_VERSION_STRING, PKG_CONFIG_FOUND</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2178,6 +2331,7 @@
 | style="background-color:green;" | X
 |-
 | FindPostgreSQL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: PostgreSQL_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -2208,8 +2362,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindProtobuf
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: PROTOBUF_IMPORT_DIRS</ref>
 | style="background-color:green;" | X
@@ -2229,6 +2385,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: PYTHON_VERSION_STRING, PYTHON_VERSION_MAJOR, PYTHON_VERSION_MINOR, PYTHON_VERSION_PATCH</ref>
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: Python_ADDITIONAL_VERSIONS</ref>
@@ -2242,6 +2399,7 @@
 | style="background-color:green;" | X
 |-
 | FindPythonLibs
+| style="background-color:green;" | X 
 | style="background-color:green;" | X <ref>deprecated: PYTHON_DEBUG_LIBRARIES</ref>
 | style="background-color:yellow;" | X <ref>missing: PYTHONLIBS_VERSION_STRING</ref>
 | style="background-color:green;" | X
@@ -2272,8 +2430,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindQt3
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2291,6 +2451,7 @@
 |-
 | FindQt4
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>missing: support for properties AUTOMOC, INCLUDE, CLASSNAME, NO_NAMESPACE</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2320,8 +2481,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindRTI
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2338,6 +2501,7 @@
 | style="background-color:red;" | -
 |-
 | FindRuby
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2368,8 +2532,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindSDL_image
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2400,8 +2566,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindSDL_net
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2432,6 +2600,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindSDL_ttf
 | style="background-color:green;" | X
@@ -2448,8 +2617,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindSWIG
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2480,8 +2651,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindSquish
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2498,6 +2671,7 @@
 | style="background-color:red;" | -
 |-
 | FindSubversion
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2528,6 +2702,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindTIFF
 | style="background-color:green;" | X
@@ -2544,8 +2719,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindTclStub
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2576,8 +2753,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindThreads
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2608,8 +2787,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindVTK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2640,6 +2821,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindWish
 | style="background-color:green;" | X
@@ -2656,8 +2838,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindX11
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: X11_Xxf86vm_LIB, X11_Xmu_INCLUDE_PATH, X11_Xmu_LIB, X11_Xmu_FOUND</ref>
 | style="background-color:green;" | X
@@ -2688,8 +2872,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindZLIB
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: ZLIB_ROOT</ref>
@@ -2716,12 +2902,14 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:green;" | X 
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 |-
 | FindosgAnimation
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2752,8 +2940,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgFX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2784,8 +2974,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgIntrospection
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2816,6 +3008,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgParticle
 | style="background-color:green;" | X
@@ -2832,8 +3025,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgPresentation
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2864,8 +3059,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgQt
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2896,8 +3093,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgSim
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2928,8 +3127,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgText
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2960,8 +3161,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgViewer
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2989,11 +3192,13 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | FindosgWidget
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3021,11 +3226,13 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | FindwxWidgets
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3056,8 +3263,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FortranCInterface
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3078,6 +3287,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3090,6 +3300,7 @@
 | style="background-color:red;" | -
 |-
 | GenerateExportHeader
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3106,6 +3317,7 @@
 | style="background-color:red;" | -
 |-
 | GetPrerequisites
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: exepath</ref>
@@ -3130,6 +3342,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3138,6 +3351,7 @@
 | style="background-color:green;" | X
 |-
 | InstallRequiredSystemLibraries
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3163,6 +3377,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: QUIT</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3170,6 +3385,7 @@
 | style="background-color:green;" | X
 |-
 | ProcessorCount
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3194,6 +3410,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3202,6 +3419,7 @@
 | style="background-color:red;" | -
 |-
 | Qt4Macros
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3227,6 +3445,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3234,6 +3453,7 @@
 | style="background-color:red;" | -
 |-
 | SquishTestScript
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3264,8 +3484,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | TestCXXAcceptsFlag
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3296,8 +3518,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | TestForANSIStreamHeaders
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3328,8 +3552,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | TestForSTDNamespace
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3360,8 +3586,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | UseJava
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3392,8 +3620,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | UseQt4
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3424,8 +3654,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | Use_wxWindows
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3456,8 +3688,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | WriteBasicConfigVersionFile
+| style="background-color:red;" | - 
 | style="background-color:red;" | - <ref>deprecated, use WRITE_BASIC_PACKAGE_VERSION_FILE in CMakePackageConfigHelpers instead.</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
