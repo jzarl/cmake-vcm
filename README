@@ -5,3 +5,22 @@ For details on the version compatibility matrix, look here:
  -> http://www.cmake.org/Wiki/CMake_Version_Compatibility_Matrix
 
 The wiki page is created from this repository, because it's easier to maintain that way...
+
+
+Basic workflow (for the interested):
+------------------------------------
+
+1) Get doctxt:
+
+# tools/get_doctxt.sh $OLDVERSION
+# tools/get_doctxt.sh $NEWVERSION
+
+2) Create diff:
+
+# tools/cmake_create_diff.sh
+
+3) Do the boring work:
+
+Look into diffs/from_cmake-$OLDVERSION.txt_to_cmake-$NEWVERSION.txt.diff and edit files
+in the directory split_page/ accordingly.
+Check wiki for changes, Upload into the wiki.
