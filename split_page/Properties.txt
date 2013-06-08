@@ -4,6 +4,7 @@
 
 {|
 ! CMake Option 
+! 2.8.11
 ! 2.8.10
 ! 2.8.9
 ! 2.8.8
@@ -38,8 +39,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | DEBUG_CONFIGURATIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -74,6 +77,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | ENABLED_FEATURES
 | style="background-color:green;" | X
@@ -92,8 +96,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | ENABLED_LANGUAGES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -128,8 +134,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FIND_LIBRARY_USE_OPENBSD_VERSIONING
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -164,8 +172,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | GLOBAL_DEPENDS_NO_CYCLES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -200,8 +210,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | PACKAGES_FOUND
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -236,8 +248,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | PREDEFINED_TARGETS_FOLDER
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -272,8 +286,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | RULE_LAUNCH_COMPILE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -303,6 +319,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -321,6 +338,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -328,6 +346,7 @@
 | style="background-color:red;" | -
 |-
 | RULE_MESSAGES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -362,6 +381,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | TARGET_SUPPORTS_SHARED_LIBS
 | style="background-color:green;" | X
@@ -380,8 +400,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | USE_FOLDERS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -416,12 +438,14 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |}
 
 === Properties on Directories ===
 
 {|
 ! CMake Option 
+! 2.8.11
 ! 2.8.10
 ! 2.8.9
 ! 2.8.8
@@ -456,8 +480,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CACHE_VARIABLES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -492,8 +518,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | BUNDLE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -518,6 +546,45 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| COMPATIBLE_INTERFACE_BOOL
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| COMPATIBLE_INTERFACE_STRING
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -530,6 +597,7 @@
 | style="background-color:red;" | -
 |-
 | COMPILE_DEFINITIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -564,8 +632,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | DEFINITIONS
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -600,8 +670,48 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| EXCLUDE_FROM_DEFAULT_BUILD
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| EXCLUDE_FROM_DEFAULT_BUILD_&lt;CONFIG&gt;
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 |-
 | IMPLICIT_DEPENDS_INCLUDE_TRANSFORM
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -620,6 +730,7 @@
 | style="background-color:red;" | -
 |-
 | INCLUDE_DIRECTORIES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -653,9 +764,11 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 |-
 | INTERPROCEDURAL_OPTIMIZATION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -685,6 +798,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -692,6 +806,7 @@
 | style="background-color:red;" | -
 |-
 | LINK_DIRECTORIES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -726,8 +841,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | MACROS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -761,9 +878,11 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 |-
 | RULE_LAUNCH_COMPILE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -793,6 +912,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -800,6 +920,7 @@
 | style="background-color:red;" | -
 |-
 | RULE_LAUNCH_LINK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -834,6 +955,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | VARIABLES
 | style="background-color:green;" | X
@@ -851,6 +973,45 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| VS_GLOBAL_SECTION_POST_&lt;section&gt;
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| VS_GLOBAL_SECTION_PRE_&lt;section&gt;
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 |}
 
@@ -858,6 +1019,7 @@
 
 {|
 ! CMake Option 
+! 2.8.11
 ! 2.8.10
 ! 2.8.9
 ! 2.8.8
@@ -886,6 +1048,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated: use OUTPUT_NAME_&lt;CONFIG&gt;</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -894,6 +1057,7 @@
 | style="background-color:green;" | X
 |-
 | &lt;CONFIG&gt;_POSTFIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -928,8 +1092,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | ARCHIVE_OUTPUT_DIRECTORY_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -959,6 +1125,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -966,6 +1133,7 @@
 | style="background-color:red;" | -
 |-
 | ARCHIVE_OUTPUT_NAME_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -985,6 +1153,7 @@
 |-
 | AUTOMOC
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>missing: support for Qt5</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1002,6 +1171,7 @@
 | style="background-color:red;" | -
 |-
 | AUTOMOC_MOC_OPTIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1036,8 +1206,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | CLEAN_DIRECT_OUTPUT
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1056,6 +1228,7 @@
 | style="background-color:green;" | X
 |-
 | COMPILE_DEFINITIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: generator expressions</ref>
 | style="background-color:green;" | X
@@ -1090,8 +1263,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | COMPILE_FLAGS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1126,8 +1301,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | DEFINE_SYMBOL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1162,8 +1339,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | EXCLUDE_FROM_ALL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1198,8 +1377,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FOLDER
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1234,8 +1415,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | Fortran_FORMAT
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1270,6 +1453,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | GENERATOR_FILE_NAME
 | style="background-color:green;" | X
@@ -1288,8 +1472,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | GNUtoMS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1317,6 +1503,7 @@
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - 
 | style="background-color:red;" | - <ref>deprecated: set LINKER_LANGUAGE instead</ref>
 | style="background-color:green;" | X
@@ -1326,6 +1513,7 @@
 | style="background-color:green;" | X
 |-
 | IMPLICIT_DEPENDS_INCLUDE_TRANSFORM
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1360,8 +1548,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | IMPORTED_CONFIGURATIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1396,8 +1586,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | IMPORTED_IMPLIB_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1432,8 +1624,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | IMPORTED_LINK_DEPENDENT_LIBRARIES_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1463,6 +1657,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1470,6 +1665,7 @@
 | style="background-color:red;" | -
 |-
 | IMPORTED_LINK_INTERFACE_LANGUAGES_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1504,8 +1700,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | IMPORTED_LINK_INTERFACE_LIBRARIES_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1535,6 +1733,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1542,6 +1741,7 @@
 | style="background-color:red;" | -
 |-
 | IMPORTED_LINK_INTERFACE_MULTIPLICITY_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1576,8 +1776,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | IMPORTED_LOCATION_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1604,6 +1806,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1614,6 +1817,7 @@
 | style="background-color:red;" | -
 |-
 | IMPORTED_NO_SONAME_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1648,8 +1852,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | IMPORTED_SONAME_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1684,6 +1890,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | IMPORT_SUFFIX
 | style="background-color:green;" | X
@@ -1702,8 +1909,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | INCLUDE_DIRECTORIES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: generator expressions</ref>
 | style="background-color:green;" | X
@@ -1738,8 +1947,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | INSTALL_RPATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1774,8 +1985,67 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| INTERFACE_COMPILE_DEFINITIONS
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| INTERFACE_INCLUDE_DIRECTORIES
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| INTERFACE_POSITION_INDEPENDENT_CODE
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 |-
 | INTERPROCEDURAL_OPTIMIZATION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1805,6 +2075,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1812,6 +2083,7 @@
 | style="background-color:red;" | -
 |-
 | LABELS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1846,8 +2118,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | LIBRARY_OUTPUT_DIRECTORY_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1877,6 +2151,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1884,6 +2159,7 @@
 | style="background-color:red;" | -
 |-
 | LIBRARY_OUTPUT_NAME_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1913,6 +2189,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>default value changed</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1927,6 +2204,26 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| LINK_DEPENDS_NO_SHARED
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1938,6 +2235,7 @@
 | style="background-color:red;" | -
 |-
 | LINK_FLAGS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1972,8 +2270,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | LINK_INTERFACE_LIBRARIES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2008,8 +2308,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | LINK_INTERFACE_MULTIPLICITY
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2039,6 +2341,26 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| LINK_LIBRARIES
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2046,6 +2368,7 @@
 | style="background-color:red;" | -
 |-
 | LINK_SEARCH_END_STATIC
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2070,6 +2393,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2082,6 +2406,7 @@
 | style="background-color:red;" | -
 |-
 | LOCATION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2116,8 +2441,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | MACOSX_BUNDLE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2151,9 +2478,11 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 |-
 | MACOSX_FRAMEWORK_INFO_PLIST
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2188,8 +2517,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | NO_SONAME
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -2218,6 +2549,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2226,6 +2558,7 @@
 | style="background-color:red;" | -
 |-
 | OSX_ARCHITECTURES_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2260,8 +2593,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | OUTPUT_NAME_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2281,6 +2616,7 @@
 |-
 | PDB_NAME
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2298,6 +2634,7 @@
 | style="background-color:red;" | -
 |-
 | PDB_NAME_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2317,6 +2654,7 @@
 |-
 | PDB_OUTPUT_DIRECTORY
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2335,6 +2673,7 @@
 |-
 | PDB_OUTPUT_DIRECTORY_&lt;CONFIG&gt;
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2352,6 +2691,7 @@
 | style="background-color:red;" | -
 |-
 | POSITION_INDEPENDENT_CODE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:red;" | -
@@ -2386,8 +2726,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | PREFIX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2422,6 +2764,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | PRIVATE_HEADER
 | style="background-color:green;" | X
@@ -2440,8 +2783,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | PROJECT_LABEL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2476,8 +2821,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | RESOURCE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2507,6 +2854,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2525,6 +2873,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2532,6 +2881,7 @@
 | style="background-color:red;" | -
 |-
 | RULE_LAUNCH_LINK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2566,8 +2916,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | RUNTIME_OUTPUT_DIRECTORY_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2597,6 +2949,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2604,6 +2957,7 @@
 | style="background-color:red;" | -
 |-
 | RUNTIME_OUTPUT_NAME_&lt;CONFIG&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2638,8 +2992,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | SOURCES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2674,8 +3030,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | STATIC_LIBRARY_FLAGS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2710,6 +3068,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | SUFFIX
 | style="background-color:green;" | X
@@ -2728,8 +3087,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | TYPE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2764,8 +3125,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | VS_DOTNET_REFERENCES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2789,6 +3152,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -2802,6 +3166,7 @@
 | style="background-color:red;" | -
 |-
 | VS_GLOBAL_KEYWORD
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2820,6 +3185,7 @@
 | style="background-color:red;" | -
 |-
 | VS_GLOBAL_PROJECT_TYPES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2851,11 +3217,13 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | VS_SCC_AUXPATH
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2887,11 +3255,13 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | VS_SCC_PROJECTNAME
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2923,11 +3293,13 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | VS_WINRT_EXTENSIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2946,6 +3318,7 @@
 | style="background-color:red;" | -
 |-
 | VS_WINRT_REFERENCES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2980,8 +3353,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | XCODE_ATTRIBUTE_&lt;an-attribute&gt;
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3004,6 +3379,7 @@
 
 {|
 ! CMake Option 
+! 2.8.11
 ! 2.8.10
 ! 2.8.9
 ! 2.8.8
@@ -3032,6 +3408,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3040,6 +3417,7 @@
 | style="background-color:red;" | -
 |-
 | ATTACHED_FILES_ON_FAIL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3068,6 +3446,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3086,6 +3465,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3094,6 +3474,7 @@
 | style="background-color:red;" | -
 |-
 | ENVIRONMENT
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3128,8 +3509,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | LABELS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3164,8 +3547,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | PASS_REGULAR_EXPRESSION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3194,6 +3579,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3202,6 +3588,7 @@
 | style="background-color:red;" | -
 |-
 | REQUIRED_FILES
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3229,6 +3616,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3238,6 +3626,7 @@
 | style="background-color:red;" | -
 |-
 | RUN_SERIAL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3272,8 +3661,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | WILL_FAIL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3299,6 +3690,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3314,6 +3706,7 @@
 
 {|
 ! CMake Option 
+! 2.8.11
 ! 2.8.10
 ! 2.8.9
 ! 2.8.8
@@ -3348,8 +3741,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | COMPILE_DEFINITIONS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3384,8 +3779,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | COMPILE_FLAGS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3420,8 +3817,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | Fortran_FORMAT
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3456,8 +3855,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | HEADER_FILE_ONLY
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3492,8 +3893,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | LABELS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3528,8 +3931,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | LOCATION
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3564,8 +3969,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | OBJECT_DEPENDS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3600,8 +4007,10 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | SYMBOLIC
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3636,12 +4045,14 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |}
 
 === Properties on Cache Entries ===
 
 {|
 ! CMake Option 
+! 2.8.11
 ! 2.8.10
 ! 2.8.9
 ! 2.8.8
@@ -3671,6 +4082,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3678,6 +4090,7 @@
 | style="background-color:red;" | -
 |-
 | HELPSTRING
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3707,6 +4120,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3714,6 +4128,7 @@
 | style="background-color:red;" | -
 |-
 | STRINGS
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -3743,6 +4158,7 @@
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -3750,6 +4166,7 @@
 | style="background-color:red;" | -
 |-
 | VALUE
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
