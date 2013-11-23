@@ -1,0 +1,707 @@
+== Variables That Change Behavior ==
+
+{|
+! CMake Option 
+! 2.8.12
+! 2.8.11
+! 2.8.10
+! 2.8.9
+! 2.8.8
+! 2.8.7
+! 2.8.6
+! 2.8.5
+! 2.8.4
+! 2.8.3
+! 2.8.2
+! 2.8.1
+! 2.8.0
+! 2.6-patch 4
+! 2.6-patch 3
+! 2.6-patch 2
+! 2.6-patch 1
+! 2.6-patch 0
+|-
+| BUILD_SHARED_LIBS
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_ABSOLUTE_DESTINATION_FILES
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_AUTOMOC_RELAXED_MODE
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:green;" | X 
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_BACKWARDS_COMPATIBILITY
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_BUILD_TYPE
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_COLOR_MAKEFILE
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_CONFIGURATION_TYPES
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_DEBUG_TARGET_PROPERTIES
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_DISABLE_FIND_PACKAGE_&lt;PackageName&gt;
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_ERROR_DEPRECATED
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_FIND_LIBRARY_PREFIXES
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_FIND_LIBRARY_SUFFIXES
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_FIND_PACKAGE_WARN_NO_MODULE
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_IGNORE_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_INCLUDE_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| CMAKE_INSTALL_DEFAULT_COMPONENT_NAME
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_INSTALL_PREFIX
+| style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>change: newer versions (2.8.12) also add CMAKE_INSTALL_PREFIX to CMAKE_SYSTEM_PREFIX_PATH</ref>
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_LIBRARY_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| CMAKE_MFC_FLAG
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_MODULE_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_NOT_USING_CONFIG_FLAGS
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_POLICY_DEFAULT_CMP&lt;NNNN&gt;
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_PREFIX_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| CMAKE_PROGRAM_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| CMAKE_SKIP_INSTALL_ALL_DEPENDENCY
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_SYSTEM_IGNORE_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_SYSTEM_INCLUDE_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| CMAKE_SYSTEM_LIBRARY_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| CMAKE_SYSTEM_PREFIX_PATH
+| style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>change: newer versions (2.8.12) also add CMAKE_INSTALL_PREFIX to CMAKE_SYSTEM_PREFIX_PATH</ref>
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| CMAKE_SYSTEM_PROGRAM_PATH
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+|-
+| CMAKE_USER_MAKE_RULES_OVERRIDE
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+|-
+| CMAKE_WARN_DEPRECATED
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|-
+| CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:green;" | X
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+| style="background-color:red;" | -
+|}
+
+
+=== Footnotes ===
+<references/>

@@ -18,11 +18,11 @@ For size-reasons, the matrix has been split into the following subpages:
 ** [[/StandardCMakeModulesA|A - FindK*]]
 ** [[/StandardCMakeModulesFindL|FindL* - Z]]
 * [[/Variables|Variables]]
-** [[/Variables#Variables_That_Change_Behavior|Variables That Change Behavior]]
-** [[/Variables#Variables_That_Describe_the_System|Variables That Describe The System]]
-** [[/Variables#Variables_for_Languages|Variables for Languages]]
-** [[/Variables#Variables_that_Control_the_Build|Variables That Control The Build]]
-** [[/Variables#Variables_that_Provide_Information|Variables That Provide Information]]
+** [[/Variables_That_Change_Behavior|Variables That Change Behavior]]
+** [[/Variables_That_Describe_the_System|Variables That Describe The System]]
+** [[/Variables_for_Languages|Variables for Languages]]
+** [[/Variables_that_Control_the_Build|Variables That Control The Build]]
+** [[/Variables_that_Provide_Information|Variables That Provide Information]]
 
 
 == Additional Notes ==
