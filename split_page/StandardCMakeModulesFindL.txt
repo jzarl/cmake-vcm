@@ -3,6 +3,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 
 {|
 ! CMake Option 
+! 2.8.12
 ! 2.8.11
 ! 2.8.10
 ! 2.8.9
@@ -22,6 +23,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 ! 2.6-patch 0
 |-
 | FindLAPACK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -58,8 +60,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindLibArchive
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -79,6 +83,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 |-
 | FindLibLZMA
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -102,6 +107,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: LIBXML2_VERSION_STRING</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -117,6 +123,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindLibXslt
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -150,11 +157,13 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:green;" | X <ref>deprecated: LUA_FOUND</ref>
 | style="background-color:yellow;" | X <ref>missing: LUA50_FOUND</ref>
 | style="background-color:green;" | X
 |-
 | FindLua51
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -191,8 +200,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindMPEG
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -229,8 +240,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindMPI
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -267,8 +280,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindMotif
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -305,8 +320,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindOpenGL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -340,11 +357,13 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | FindOpenSSL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -366,6 +385,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | FindOpenSceneGraph
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: OSG_DIR as (not environment-)variable</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -383,6 +403,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 |-
 | FindOpenThreads
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: OSG_DIR, OPENTHREADS_DIR as (not environment-)variable</ref>
@@ -419,8 +440,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindPNG
+| style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
@@ -440,6 +463,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindPackageHandleStandardArgs
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: option FOUND_VAR</ref>
 | style="background-color:green;" | X
@@ -476,8 +500,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindPerl
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -497,6 +523,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindPerlLibs
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -533,8 +560,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindPike
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -558,6 +587,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: PKG_CONFIG_VERSION_STRING, PKG_CONFIG_FOUND</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -573,6 +603,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindPostgreSQL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -609,8 +640,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindProtobuf
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -636,6 +669,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: PYTHON_VERSION_STRING, PYTHON_VERSION_MAJOR, PYTHON_VERSION_MINOR, PYTHON_VERSION_PATCH</ref>
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: Python_ADDITIONAL_VERSIONS</ref>
@@ -649,6 +683,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindPythonLibs
+| style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
 | style="background-color:green;" | X 
@@ -685,6 +720,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindQt3
 | style="background-color:green;" | X
@@ -704,8 +740,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindQt4
+| style="background-color:green;" | X  <ref>deprecated: macro qt4_automoc (use the CMAKE_AUTOMOC feature instead), function qt4_use_modules (Use target_link_libraries with IMPORTED targets instead.)</ref>
 | style="background-color:green;" | X <ref>deprecated: QT4_FOUND</ref>
 | style="background-color:yellow;" | X <ref>missing: variable QT_INCLUDE_DIRS_NO_SYSTEM</ref>
 | style="background-color:yellow;" | X <ref>missing: function QT4_USE_MODULES</ref>
@@ -742,8 +780,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindRTI
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -772,6 +812,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: find_package version support</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X <ref>deprecated: RUBY_INCLUDE_PATH</ref>
@@ -782,6 +823,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindSDL
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: variable SDL_VERSION_STRING</ref>
@@ -803,6 +845,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | FindSDL_image
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: variable SDL_VERSION_STRING</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -820,6 +863,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindSDL_mixer
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: variable SDL_VERSION_STRING</ref>
@@ -841,6 +885,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | FindSDL_net
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: variable SDL_VERSION_STRING</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -858,6 +903,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindSDL_sound
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: variable SDL_VERSION_STRING</ref>
@@ -879,6 +925,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | FindSDL_ttf
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: variable SDL_VERSION_STRING</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -896,6 +943,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | FindSWIG
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -932,8 +980,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindSquish
+| style="background-color:green;" | X 
 | style="background-color:green;" | X <ref>deprecated: macro SQUISH_ADD_TEST</ref>
 | style="background-color:yellow;" | X <ref>missing: macro squish_v3_add_test, squish_v4_add_test</ref>
 | style="background-color:green;" | X
@@ -953,6 +1003,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 |-
 | FindSubversion
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -989,6 +1040,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindTIFF
 | style="background-color:green;" | X
@@ -1008,8 +1060,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindTclStub
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1046,8 +1100,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindThreads
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1084,8 +1140,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindVTK
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1122,6 +1180,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindWish
 | style="background-color:green;" | X
@@ -1141,8 +1200,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindX11
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1179,8 +1240,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindZLIB
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1213,12 +1276,14 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:green;" | X 
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 |-
 | FindosgAnimation
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1255,8 +1320,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgFX
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1293,8 +1360,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgIntrospection
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1331,6 +1400,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgParticle
 | style="background-color:green;" | X
@@ -1350,8 +1420,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgPresentation
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1388,8 +1460,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgQt
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1426,8 +1500,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgSim
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1464,8 +1540,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgText
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1502,8 +1580,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FindosgViewer
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1537,11 +1617,13 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | FindosgWidget
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1575,11 +1657,13 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 |-
 | FindwxWidgets
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1616,8 +1700,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | FortranCInterface
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1644,6 +1730,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1656,6 +1743,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 |-
 | GenerateExportHeader
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1675,6 +1763,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 |-
 | GetPrerequisites
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing in add_jar: support for SOURCES, INCLUDE_JARS</ref>
 | style="background-color:green;" | X
@@ -1705,6 +1794,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
+| style="background-color:red;" | -
 | style="background-color:red;" | - <ref>deprecated</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1713,6 +1803,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | InstallRequiredSystemLibraries
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1744,6 +1835,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:yellow;" | X <ref>missing: QUIT</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1751,6 +1843,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 |-
 | ProcessorCount
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1781,6 +1874,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 | style="background-color:red;" | -
 | style="background-color:red;" | -
 | style="background-color:red;" | -
@@ -1789,6 +1883,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 |-
 | Qt4Macros
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1809,6 +1904,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 |-
 | SelectLibraryConfigurations
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>change: when only one of basename_LIBRARY_DEBUG and basename_LIBRARY_RELEASE is set, older versions also set the missing variable. Newer versions (2.8.12) set the missing variable to NOTFOUND</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1827,6 +1923,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 |-
 | SquishTestScript
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1863,8 +1960,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | TestCXXAcceptsFlag
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1901,8 +2000,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | TestForANSIStreamHeaders
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1939,8 +2040,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | TestForSTDNamespace
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1977,9 +2080,11 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | UseJava
 | style="background-color:green;" | X
+| style="background-color:yellow;" | X <ref>missing: ENTRY_POINT, VERSION, OUTPUT_NAME, OUTPUT_DIR</ref>
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -1998,6 +2103,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:red;" | -
 |-
 | UsePkgConfig
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2034,8 +2140,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | UseSWIG
+| style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
@@ -2072,6 +2180,7 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | UsewxWidgets
 | style="background-color:green;" | X
@@ -2091,8 +2200,10 @@ Previous part: [[CMake_Version_Compatibility_Matrix/StandardCMakeModulesA|A - Fi
 | style="background-color:green;" | X
 | style="background-color:green;" | X
 | style="background-color:green;" | X
+| style="background-color:green;" | X
 |-
 | WriteBasicConfigVersionFile
+| style="background-color:red;" | - 
 | style="background-color:red;" | - 
 | style="background-color:red;" | - 
 | style="background-color:red;" | - 
